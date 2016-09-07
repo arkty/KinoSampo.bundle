@@ -1,5 +1,5 @@
 TITLE = 'Swap'
-PREFIX  = '/swap/swap'
+PREFIX  = '/video/swap'
 
 def Start():
   HTTP.CacheTime = CACHE_1HOUR
