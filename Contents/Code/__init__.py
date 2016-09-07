@@ -1,11 +1,11 @@
 TITLE = 'Swap'
-P_SERIES  = '/swap/series'
+PREFIX  = '/swap/series'
 
 def Start():
   HTTP.CacheTime = CACHE_1HOUR
   ObjectContainer.title1 = 'Swap'
 
-@handler(P_SERIES, TITLE)
+@handler(PREFIX, TITLE)
 def MainMenu():
   oc = ObjectContainer()
   # Hard coded the links offered under the Watch pull down list
