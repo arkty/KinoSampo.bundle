@@ -27,7 +27,7 @@ def Categories(title):
             duration = 200,
             thumb = Resource.ContentsOfURLWithFallback("http://kino.sampo.ru/resize/poster/9/7309/w210h290.jpg?1463393951")
         ))
-
+  return oc
   # local_url = '%s/%s' %(BASE_URL, title.lower())
   # html = HTML.ElementFromURL(local_url)
 
