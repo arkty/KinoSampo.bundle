@@ -1,11 +1,11 @@
-TITLE    = 'Vimeo'
-PREFIX   = '/video/vimeo'
+TITLE = 'Swap'
+P_SERIES  = '/swap/series'
 
 def Start():
   HTTP.CacheTime = CACHE_1HOUR
-  ObjectContainer.title1 = 'Vimeo'
+  ObjectContainer.title1 = 'Kino Sampo'
 
-@handler(PREFIX, TITLE)
+@handler(P_SERIES, TITLE)
 def MainMenu():
 
   oc = ObjectContainer()
