@@ -7,7 +7,6 @@ def Start():
 
 @handler(P_SERIES, TITLE)
 def MainMenu():
-
   oc = ObjectContainer()
   # Hard coded the links offered under the Watch pull down list
   oc.add(DirectoryObject(key=Callback(SectionSort, title='Staff Picks', url=STAFF_PICKS), title='Staff Picks'))
