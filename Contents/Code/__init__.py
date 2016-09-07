@@ -3,7 +3,7 @@ P_SERIES  = '/swap/series'
 
 def Start():
   HTTP.CacheTime = CACHE_1HOUR
-  ObjectContainer.title1 = 'Kino Sampo'
+  ObjectContainer.title1 = 'Swap'
 
 @handler(P_SERIES, TITLE)
 def MainMenu():
