@@ -11,7 +11,7 @@ def Start():
 def MainMenu():
   oc = ObjectContainer()
   # Hard coded the links offered under the Watch pull down list
-  oc.add(DirectoryObject(key=Callback(Categories, title='Series'), title='Series'))
+  oc.add(DirectoryObject(key=Callback(Categories, title='Categories'), title='Categories'))
   #oc.add(InputDirectoryObject(key = Callback(SearchOptions, title="Search"), title = "Search"))
   return oc
 
